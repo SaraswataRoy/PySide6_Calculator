@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "*"
+comtypes = "*"
+scipy = "*"
+unidecode = "*"
+pandas = "*"
+pyside6 = "*"
+setuptools = "*"
+openpyxl = "*"
+
+[dev-packages]
+jupyter = "*"
+
+[requires]
+python_version = "3.9"

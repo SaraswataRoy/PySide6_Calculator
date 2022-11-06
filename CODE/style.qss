@@ -1,0 +1,27 @@
+/* Label */
+QLabel{
+    color: #001011;
+    font-size: 30px;
+    border: 2px solid #383e42;
+    background-color: white;
+    min-height: 65px;
+    max-height: 65px;
+    min-width: 351px;
+    max-width: 351px;
+    font: Arial;
+}
+/* Buttons */
+QPushButton{
+    min-height: 40px;
+    max-height: 40px;
+    min-width: 80px;
+    max-width: 80px;
+}
+
+QPushButton[cssClass = "push_clear"], QPushButton[cssClass = "push_del"]{
+    min-height: 40px;
+    max-height: 40px;
+    min-width: 165px;
+    max-width: 165px;
+}
+
